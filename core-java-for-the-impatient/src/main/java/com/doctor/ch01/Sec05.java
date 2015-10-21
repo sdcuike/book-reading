@@ -5,7 +5,7 @@ package com.doctor.ch01;
  *
  * @time 2015年10月21日 下午6:21:59
  */
-public class Sec5 {
+public class Sec05 {
 
 	public static void main(String[] args) {
 		// jdk8字符串拼接新方法,底层实现还是我们之前经常用的StringBuilder，
