@@ -1,6 +1,6 @@
 The	key	points		of		this	chapter	are:
 
-```
+ 
 
 -   	A	generic	class	is	a	class	with		one	or		more	type	parameters.
 
@@ -12,7 +12,9 @@ The	key	points		of		this	chapter	are:
 
 between	G<S>	and	G<T>.
 
-_________________________________
+ 
+
+----------
 
 -  	By	using	wildcards	G<?	extends	T>	or		G<?	super	T>,	you	can	specify	that
 
@@ -33,4 +35,4 @@ newInstance	are	declared		to		produce	a	value	of		type	T.
 find	out	at		runtime	how		they	were	declared.
 
 
-```
+ 
