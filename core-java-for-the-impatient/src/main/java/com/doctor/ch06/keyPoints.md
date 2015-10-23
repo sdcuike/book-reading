@@ -10,21 +10,21 @@ The	key	points		of		this	chapter	are:
 
 between	G<S>	and	G<T>.
 
-5.	By	using	wildcards	G<?	extends	T>	or		G<?	super	T>,	you	can	specify	that
+-  	By	using	wildcards	G<?	extends	T>	or		G<?	super	T>,	you	can	specify	that
 
 a	method	can	accept	an	instantiation	of	a	generic	type	with	a	subclass		or		superclass 	argument.
 
-6.	Type	parameters	are	erased	when	generic	classes	and	methods	are	compiled.
+-   	Type	parameters	are	erased	when	generic	classes	and	methods	are	compiled.
 
-7.	Erasure	puts	many	restrictions	on	generic	types.	In	particular,	you	can’t	instantiate
+-   	Erasure	puts	many	restrictions	on	generic	types.	In	particular,	you	can’t	instantiate
 
 generic	classes	or		arrays,	cast		to	a	generic	type,	or		throw	an	object	of		a	generic	type.
 
-8.	The	Class<T>	class	is	generic,	which	is	useful	because		methods	such	as
+-   	The	Class<T>	class	is	generic,	which	is	useful	because		methods	such	as
 
 newInstance	are	declared		to		produce	a	value	of		type	T.
 
-9.	Even	though	generic	classes	and	methods	are	erased	in	the	virtual	machine,	you	can
+-   	Even	though	generic	classes	and	methods	are	erased	in	the	virtual	machine,	you	can
 
 find	out	at		runtime	how		they	were	declared.
 
