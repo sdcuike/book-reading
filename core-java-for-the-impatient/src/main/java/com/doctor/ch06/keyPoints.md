@@ -1,14 +1,16 @@
 The	key	points		of		this	chapter	are:
 
-1.	A	generic	class	is	a	class	with		one	or		more	type	parameters.
+-   	A	generic	class	is	a	class	with		one	or		more	type	parameters.
 
-2.	A	generic	method	is	a	method	with		type	parameters.
+-   A	generic	method	is	a	method	with		type	parameters.
 
-3.	You	can	require	a	type	parameter		to		be	a	subtype	of		one	or		more	types.
+-   You	can	require	a	type	parameter		to		be	a	subtype	of		one	or		more	types.
 
-4.	Generic	types	are	invariant:	When	S	is	a	subtype	of	T,	there	is	no	relationship
+-   	Generic	types	are	invariant:	When	S	is	a	subtype	of 	T,	there	is	no	relationship
 
 between	G<S>	and	G<T>.
+
+_________________________________
 
 -  	By	using	wildcards	G<?	extends	T>	or		G<?	super	T>,	you	can	specify	that
 
