@@ -8,7 +8,8 @@ The	key	points		of		this	chapter	are:
 
 -   You	can	require	a	type	parameter		to		be	a	subtype	of		one	or		more	types.
 
--   	Generic	types	are	invariant:	When	S	is	a	subtype	of 	T,	there	is	no	relationship
+-  Generic	types	are	invariant:	When	S	is	a	subtype	of 	T,	there	is	no	relationship
+
 
 between	G<S>	and	G<T>.
 
