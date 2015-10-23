@@ -1,5 +1,7 @@
 The	key	points		of		this	chapter	are:
 
+```
+
 -   	A	generic	class	is	a	class	with		one	or		more	type	parameters.
 
 -   A	generic	method	is	a	method	with		type	parameters.
@@ -30,3 +32,5 @@ newInstance	are	declared		to		produce	a	value	of		type	T.
 
 find	out	at		runtime	how		they	were	declared.
 
+
+```
