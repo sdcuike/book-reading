@@ -39,5 +39,7 @@ public class Sec01 {
 			}
 		};
 
+		System.out.println(list2);
+
 	}
 }
