@@ -30,3 +30,8 @@ the	reflected	items	for	annotations.
 -  Annotation		processors	process	source	files		during		compilation,	using	the	Java
 
 language	model		API	to		locate		annotated	items.
+
+
+- Annotations	for	local	variables	and	packages	are	discarded	when	a	class	is
+
+compiled.	Therefore,		they	can	only		be	processed	at		the	source	level.
