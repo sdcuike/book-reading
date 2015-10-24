@@ -10,6 +10,12 @@ The	key	points	of	this	chapter	are:
 
 -	LocalDateTime	has	no	time	zone	information.
 
+-  The	API	designers	recommend	that		you	do	not	use	zoned	time	unless		you
+
+really	want	to		represent	absolute		time	instances.	Birthdays,	holidays,	schedule	times,	and
+
+so	on	are	usually	best	represented	as	local	dates	or		times.
+
 - TemporalAdjuster	methods	handle	common	calendar	computations,	such	as
 
 finding	the	first	Tuesday	of		a	month.
