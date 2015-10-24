@@ -2,7 +2,7 @@ The	key	points	of	this	chapter	are:
 
 - 	Input	streams		are	a	source	of		bytes,	and		output	streams		are	a	destination	for	bytes.
 
-- 		Use	readers	and	writers	for	processing		characters.	Be	sure	to		specify	a	character encoding.
+- 	Use	readers	and	writers	for	processing		characters.	Be	sure	to		specify	a	character encoding.
 
 - 	 The	Files		class	has	convenience	methods	for	reading	all		bytes	or		lines	of		a	file.
 
@@ -18,9 +18,9 @@ Paths	can	be	combined	(or	“resolved”).
 
 recursively		walk	through	a	directory	tree.
 
-- 		To		read	or		update	a		ZIP	file,	use	a	ZIP	file	system.
+- 	To		read	or		update	a		ZIP	file,	use	a	ZIP	file	system.
 
-- 	 	You	can	read	the	contents	of		a	web	page	with		the	URL	class.	To		read	metadata	or
+- 	You	can	read	the	contents	of		a	web	page	with		the	URL	class.	To		read	metadata	or
 
 write	data,	use	the	URLConnection		class.
 
