@@ -18,7 +18,10 @@ you do.
 
 ©2015 Axel Rauschmayer (cover by Fran Caye)
 
+
+ * 说明： 编译转化   http://babeljs.io/docs/setup/#webstorm *
  
+
 
 
 ![Exploring ES6](https://raw.githubusercontent.com/sdcuike/book-reading/master/images/Exploring%20ES6%20.jpeg)
