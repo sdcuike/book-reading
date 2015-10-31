@@ -26,3 +26,7 @@ Cover Image by Artie Ng (artherng@yahoo.com.au)
 
 
 ![Java 7 Concurrency Cookbook](https://raw.githubusercontent.com/sdcuike/book-reading/master/images/Java%207%20Concurrency%20Cookbook.jpg)
+
+
+
+https://www.packtpub.com/application-development/java-7-concurrency-cookbook
