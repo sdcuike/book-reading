@@ -8,7 +8,7 @@ import net.sf.uadetector.service.UADetectorServiceFactory;
 /**
  * Detect Device Type In Java Web Application
  * 
- * @author cuikexiang
+ * @author sdcuike
  *
  * @time 2015年11月16日 上午9:03:17
  * 
