@@ -137,6 +137,11 @@
             </snapshots>
         </repository>
         <repository>
+            <id>google-maven-central</id>
+            <name>Google Maven Central</name>
+            <url>https://maven-central.storage.googleapis.com</url>
+        </repository>
+        <repository>
             <id>io.spring.repo.maven.release</id>
             <url>http://repo.spring.io/release/</url>
             <snapshots>
