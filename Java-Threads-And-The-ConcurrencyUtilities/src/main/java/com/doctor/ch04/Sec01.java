@@ -10,6 +10,8 @@ package com.doctor.ch04;
  *       a thread-local variable as a multislot variable in which each thread can store a different
  *       value in the same variable. Each thread sees only its value and is unaware of other threads
  *       having their own values in this variable.
+ * 
+ * 
  */
 public class Sec01 {
 
