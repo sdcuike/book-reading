@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <variable name="APP_LOG_HOME" value="logs" />
+    <variable name="project_home" value="demo" />
+    <variable name="logFileName" value="mongoDB" />
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="UTF-8">
+            <pattern>%d{MM-dd HH:mm:ss.SSS} %-5thread %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="defaultAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${APP_LOG_HOME}/logs/${project_home}/${demo}.xml.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${APP_LOG_HOME}/logs/${project_home}/${"logFileName"}.xml.log.out.%d{yyyy-MM-dd}
+            </FileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%-16(%d{MM-dd HH:mm:ss}) %-5thread %-5level %logger -%msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <root level="DEBUG">
+        <appender-ref ref="stdout" />
+        <appender-ref ref="defaultAppender" />
+
+    </root>
+</configuration> 
