@@ -35,6 +35,8 @@
     <mongo:db-factory id="mongoDbFactory"
         dbname="${mongo.dbname}"
         mongo-ref="mongo" 
+        username="${mongo.username}"
+        password="${mongo.password}"
         />
 
     <bean
