@@ -26,6 +26,9 @@ public class SavingUpdatingRemovingDocuments {
         MongoTemplate mongoTemplate = context.getBean(MongoTemplate.class);
 
         Person person = new Person("doctorwho", 28888, "11188");
+
+        // person.setBirth(Date.from(LocalDateTime.of(2015, 12, 1, 1,
+        // 1).toInstant(ZoneOffset.UTC)));
         if (mongoTemplate.findById(person.getId(), Person.class) == null) {
             mongoTemplate.insert(person);
         }
@@ -38,6 +41,10 @@ public class SavingUpdatingRemovingDocuments {
 
         WriteResult updateMulti = mongoTemplate.updateMulti(Query.query(Criteria.where("age").is(28888)), Update.update("age", 888888), Person.class);
         System.out.println(updateMulti.getN());
+
+        System.out.println("time query");
+        List<Person> find2 = mongoTemplate.find(Query.query(Criteria.where("birth").is(person.getBirth())), Person.class);
+        find2.forEach(System.out::println);
 
     }
 

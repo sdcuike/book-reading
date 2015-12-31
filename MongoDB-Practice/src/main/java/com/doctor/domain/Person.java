@@ -1,5 +1,7 @@
 package com.doctor.domain;
 
+import java.util.Date;
+
 /**
  * @author sdcuike
  *
@@ -10,10 +12,23 @@ public class Person {
     private String id;
     private String name;
     private int age;
+    private Date birth = new Date();
 
     public Person(String name, int age, String id) {
         this.id = id;
         this.name = name;
+        this.age = age;
+    }
+
+    public Date getBirth() {
+        return birth;
+    }
+
+    public void setBirth(Date birth) {
+        this.birth = birth;
+    }
+
+    public void setAge(int age) {
         this.age = age;
     }
 
