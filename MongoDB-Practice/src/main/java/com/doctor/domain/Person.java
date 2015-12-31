@@ -1,5 +1,6 @@
 package com.doctor.domain;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -8,7 +9,7 @@ import java.util.Date;
  * @time 2015年12月24日 下午2:34:13
  */
 public class Person {
-
+    public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private String id;
     private String name;
     private int age;
@@ -46,7 +47,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person [id=" + id + ", name=" + name + ", age=" + age + "]";
+
+        return "Person [id=" + id + ", name=" + name + ", age=" + age + ",birth=" + sdf.format(birth) + "]";
     }
 
 }
