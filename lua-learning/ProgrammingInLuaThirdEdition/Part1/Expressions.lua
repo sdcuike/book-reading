@@ -26,3 +26,9 @@ local max = (a > b) and a or b
 print(max)
 
 -- Table Constructors
+
+t = {"name","sex"}
+ 
+for key, v in pairs(t) do
+	print("key:"..key.."  value:"..v)
+end
