@@ -1,5 +1,9 @@
 package com.doctor.springdoc;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -12,6 +16,8 @@ import com.doctor.domain.Person;
 import com.mongodb.WriteResult;
 
 /**
+ * JSONSerializers L205-216有关mongoDB对时间的处理ISODate与我们时区相差8小时（做个时区转换）
+ * 
  * @author sdcuike
  *
  * @time 2015年12月27日 下午10:54:16
@@ -27,8 +33,11 @@ public class SavingUpdatingRemovingDocuments {
 
         Person person = new Person("doctorwho", 28888, "11188");
 
-        // person.setBirth(Date.from(LocalDateTime.of(2015, 12, 1, 1,
-        // 1).toInstant(ZoneOffset.UTC)));
+        LocalDateTime localDateTime = LocalDateTime.of(2016, 1, 1, 13, 55);
+        ZonedDateTime zonedDateTime = localDateTime.atZone(ZoneId.of("Asia/Shanghai"));
+        person.setBirth(Date.from(zonedDateTime.toInstant()));
+
+        System.out.println(person);
         if (mongoTemplate.findById(person.getId(), Person.class) == null) {
             mongoTemplate.insert(person);
         }
@@ -45,7 +54,7 @@ public class SavingUpdatingRemovingDocuments {
         System.out.println("time query");
         List<Person> find2 = mongoTemplate.find(Query.query(Criteria.where("birth").is(person.getBirth())), Person.class);
         find2.forEach(System.out::println);
-
+        // JSONSerializers L205-216有关mongoDB对时间的处理ISODate与我们时区相差8小时（做个时区转换）
     }
 
 }
