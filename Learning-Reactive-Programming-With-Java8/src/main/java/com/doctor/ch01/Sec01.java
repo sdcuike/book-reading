@@ -19,8 +19,12 @@ public class Sec01 {
         List<String> list = Arrays.asList("one", "two", "three");
         Observable<String> observable = Observable.from(list);
 
-        observable.subscribe(System.out::println, e -> e.printStackTrace(), () -> System.out.println("complete"));
+        observable.subscribe(c -> System.out.println(Thread.currentThread().getName() + " --- " + c),
+                e -> e.printStackTrace(),
+                () -> System.out.println("complete"));
 
+        System.out.println("add");
+        list.add("1");
     }
 
 }
