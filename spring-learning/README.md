@@ -19,3 +19,22 @@ Birmingham B3 2PB, UK.
 ISBN 978-1-78398-736-8
 
 www.packtpub.com
+
+
+## Spring Enterprise Recipes: A Problem-Solution Approach  2016年2月10
+
+Copyright © 2009 by Gary Mak and Josh Long
+
+All rights reserved. No part of this work may be reproduced or transmitted in any form or by any
+
+means, electronic or mechanical, including photocopying, recording, or by any information
+
+storage or retrieval system, without the prior written permission of the copyright owner and the
+
+publisher.
+
+ISBN-13 (pbk): 978-1-4302-2497-6
+
+ISBN-13 (electronic): 978-1-4302-2498-3
+
+Printed and bound in the United States of America 9 8 7 6 5 4 3 2 1
