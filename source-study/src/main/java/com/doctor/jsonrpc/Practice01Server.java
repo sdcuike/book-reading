@@ -19,7 +19,7 @@ import com.googlecode.jsonrpc4j.JsonRpcServer;
  *
  * @time 2016年2月15日 上午11:20:50
  */
-public class Practice01 {
+public class Practice01Server {
 
     public static void main(String[] args) throws LifecycleException {
         UserService userService = new UserServiceImpl();
