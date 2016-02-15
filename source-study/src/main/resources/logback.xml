@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <variable name="project_home" value="sourceStudy" />
+    <variable name="appName" value="sourceStudy" />
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="UTF-8">
+            <pattern> %d{MM-dd HH:mm:ss.SSS} %-5thread %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="defaultAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/${project_home}/${appName}.xml.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>logs/${project_home}/${appName}.xml.log.out.%d{yyyy-MM-dd}
+            </FileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern> %-16(%d{MM-dd HH:mm:ss}) %-5thread %-5level %logger -%msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <root level="debug">
+        <appender-ref ref="stdout" />
+        <appender-ref ref="defaultAppender" />
+    </root>
+</configuration> 
