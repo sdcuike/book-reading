@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.fasterxml.jackson.databind.MappingIterator;
@@ -32,6 +33,7 @@ public class JacksonDataformatCsvFile {
         costDetail.setTypeName("v");
         costDetail.setUserId(88L);
         CsvMapper csvMapper = new CsvMapper();
+        csvMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
         CsvSchema csvSchema = csvMapper.schemaFor(CostDetail.class).withHeader();
         System.out.println(csvSchema);
         csvSchema.forEach(t -> System.out.println(t.getName()));
@@ -50,7 +52,7 @@ public class JacksonDataformatCsvFile {
             MappingIterator<CostDetail> values = csvMapper.readerFor(CostDetail.class).with(schema).readValues(inputStream);
             values.forEachRemaining(System.out::println);
         } catch (Exception e) {
-            // TODO: handle exception
+            throw e;
         }
 
     }
