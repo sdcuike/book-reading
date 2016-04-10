@@ -2,6 +2,7 @@ package com.doctor.curator;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
@@ -88,6 +89,14 @@ public class CuratorWatcher {
             // List<String> serverUrls = client.getChildren().forPath(BasePath + SERVICE_PATH + SERVICE_PROVIDERS).stream().map(URL::decode).collect(Collectors.toList());
             // serverUrls.forEach(System.err::println);
 
+            Map<String, ChildData> currentChildren = treeCache.getCurrentChildren(BasePath + SERVICE_PATH + SERVICE_PROVIDERS);
+            System.err.println("currentChildren:" + currentChildren);
+
+            System.err.println("service urls ");
+            currentChildren.keySet().stream().map(URL::decode).forEach(System.err::println);
+
+            Map<String, ChildData> notHaveValue = treeCache.getCurrentChildren(BasePath + PATH_SEPARATOR + "com.test.not.exist");
+            System.err.println("not have value:" + notHaveValue);
             TimeUnit.MINUTES.sleep(5);
 
         } catch (Exception e) {
