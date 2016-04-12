@@ -1,7 +1,9 @@
 package com.doctor.dubbo.demo.api;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.jboss.resteasy.plugins.server.embedded.SecurityDomain;
 import org.jboss.resteasy.plugins.server.netty.NettyJaxrsServer;
@@ -10,6 +12,8 @@ import org.jboss.resteasy.spi.ResteasyDeployment;
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ReferenceConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
+
+import io.netty.channel.ChannelOption;
 
 /**
  * @author sdcuike
@@ -20,8 +24,9 @@ public class DubboDemoClient {
 
     /**
      * @param args
+     * @throws InterruptedException
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         String hostname = "0.0.0.0";
         int port = 8889;
@@ -39,6 +44,10 @@ public class DubboDemoClient {
 
         nettyJaxrsServer.setIoWorkerCount(ioWorkerCount);
         nettyJaxrsServer.setExecutorThreadCount(executorThreadCount);
+        Map<ChannelOption, Object> channelOptions = new HashMap<ChannelOption, Object>();
+        channelOptions.put(ChannelOption.CONNECT_TIMEOUT_MILLIS, 100);
+        nettyJaxrsServer.setChannelOptions(channelOptions);
+        nettyJaxrsServer.setChildChannelOptions(channelOptions);
 
         ResteasyDeployment deployment = nettyJaxrsServer.getDeployment();
         List<Object> resources = new ArrayList<>();
@@ -57,6 +66,7 @@ public class DubboDemoClient {
         demoServiceReferenceConfig.setApplication(dubboApp);
         demoServiceReferenceConfig.setRegistry(registryConfig);
         demoServiceReferenceConfig.setInterface(DemoService.class);
+        demoServiceReferenceConfig.setCheck(false);
         DemoService demoService = demoServiceReferenceConfig.get();
 
         // resteasy 暴露服务
@@ -64,6 +74,10 @@ public class DubboDemoClient {
         resources.add(demoService);
         deployment.setResources(resources);
         nettyJaxrsServer.start();
+
+        // TimeUnit.SECONDS.sleep(6);
+        // nettyJaxrsServer.stop();
+        // demoServiceReferenceConfig.destroy();
 
     }
 
