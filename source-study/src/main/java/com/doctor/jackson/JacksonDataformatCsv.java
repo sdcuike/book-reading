@@ -3,6 +3,8 @@ package com.doctor.jackson;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
@@ -32,6 +34,40 @@ public class JacksonDataformatCsv {
         CostDetail readValue = csvMapper.readerFor(CostDetail.class).with(csvSchema).readValue(writeValueAsString);
         System.out.println(readValue);// {"applyId":11,"typeId":77,"typeName":"v","status":1,"amount":12.55,"createdTime":"Feb 28, 2016 3:52:36 PM","userId":88,"costCenterId":66}
 
+        Test test = new Test();
+
+        test.setName("doctor");
+        Map<String, String> map = new HashMap<>();
+        map.put("age", "16");
+        map.put("ke", "vv");
+
+        test.setMap(map);
+        CsvSchema testSh = csvMapper.schemaFor(Test.class);
+        String writeValueAsString2 = csvMapper.writer(testSh).writeValueAsString(test);
+        System.out.println(writeValueAsString2);
+        // Exception in thread "main" com.fasterxml.jackson.databind.JsonMappingException: CSV generator does not support Object values for properties (through reference chain: com.doctor.jackson.Test["map"])
+
+    }
+
+    static class Test {
+        private String name;
+        private Map<String, String> map;
+
+        public Map<String, String> getMap() {
+            return map;
+        }
+
+        public void setMap(Map<String, String> map) {
+            this.map = map;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 
 }

@@ -1,0 +1,356 @@
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:04:14   main  INFO  org.eclipse.jetty.util.log -Logging initialized @1015ms
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:04:14   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:04:14   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes [depth=1]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties]
+04-14 11:04:14   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @1062ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)]
+04-14 11:04:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@7637164c
+04-14 11:04:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:04:42   main  INFO  org.eclipse.jetty.util.log -Logging initialized @667ms
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:04:42   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:04:42   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes [depth=1]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties]
+04-14 11:04:42   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @732ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)]
+04-14 11:04:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@7637164c
+04-14 11:04:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:04:47   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv (count=1) (filesize=160)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml (count=1) (filesize=1,066)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/com (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties (count=1) (filesize=15)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties (count=1) (filesize=13)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png (count=1) (filesize=96,742)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF (count=1) (filesize=111)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties (count=1) (filesize=14)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/images (count=1)
+04-14 11:04:52   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:05:22   main  INFO  org.eclipse.jetty.util.log -Logging initialized @488ms
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:05:22   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:05:22   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes [depth=1]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/com
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/images
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties]
+04-14 11:05:22   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @529ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)]
+04-14 11:05:22   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@7ffed4b5
+04-14 11:05:22   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:05:27   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/com/doctor (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/data.csv (count=1) (filesize=160)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/logback.xml (count=1) (filesize=1,066)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/maven (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/com (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_zh.properties (count=1) (filesize=15)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle_it.properties (count=1) (filesize=13)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/images/jsonrpc01.png (count=1) (filesize=96,742)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/META-INF/MANIFEST.MF (count=1) (filesize=111)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle.properties (count=1) (filesize=14)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/images (count=1)
+04-14 11:05:32   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:06:28   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/logback副本.xml
+04-14 11:06:28   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:33   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:36   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/logback副本 2.xml
+04-14 11:06:36   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:41   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/logback副本.xml (count=1) (filesize=1,066)
+04-14 11:06:41   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本.properties
+04-14 11:06:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:46   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本 2.properties
+04-14 11:06:46   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:50   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本 2.properties
+04-14 11:06:50   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:55   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/logback副本 2.xml (count=1) (filesize=1,066)
+04-14 11:06:55   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:06:56   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store
+04-14 11:06:56   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本.properties
+04-14 11:06:56   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:01   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本 2.properties (count=1)
+04-14 11:07:01   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [DELETED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本 2.properties (count=1)
+04-14 11:07:01   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store
+04-14 11:07:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本.properties (count=1)
+04-14 11:07:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [DELETED] /Users/cuikexiang/git/book-reading/source-study/target/classes/ResourceBundle副本.properties (count=1)
+04-14 11:07:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store (count=1) (filesize=6,148)
+04-14 11:07:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store (count=1) (filesize=6,148)
+04-14 11:07:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹]
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹
+04-14 11:07:10   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 2
+04-14 11:07:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 2
+04-14 11:07:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 2]
+04-14 11:07:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 2
+04-14 11:07:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:16   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store
+04-14 11:07:16   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 3
+04-14 11:07:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 3
+04-14 11:07:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 3]
+04-14 11:07:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 3
+04-14 11:07:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 4
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [All] on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 4
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Pending PathWatchEvent[ADDED|/Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 4]
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 4
+04-14 11:07:20   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:25   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 3 (count=1)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 4 (count=1)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 (count=1)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes/.DS_Store (count=3) (filesize=6,148)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes/未命名文件夹 2 (count=1)
+04-14 11:07:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target/classes (+3)] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:22:28   main  INFO  org.eclipse.jetty.util.log -Logging initialized @966ms
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:22:28   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:22:28   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/generated-sources
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/maven-status
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/test-classes
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/未命名文件夹
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/未命名文件夹 2
+04-14 11:22:28   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @999ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:22:28   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@3bd7942b
+04-14 11:22:28   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:22:54   main  INFO  org.eclipse.jetty.util.log -Logging initialized @624ms
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:22:54   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:22:54   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/generated-sources
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/maven-status
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/test-classes
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/未命名文件夹
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/未命名文件夹 2
+04-14 11:22:54   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @657ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:22:54   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@775d1ff6
+04-14 11:22:54   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:23:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:23:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:23:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:23:12   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:23:12   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:23:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:23:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:23:14   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:23:19   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:23:24   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:23:29   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:23:29   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:24:00   main  INFO  org.eclipse.jetty.util.log -Logging initialized @521ms
+04-14 11:24:00   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:24:00   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:24:18   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:24:38   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:25:58   main  INFO  org.eclipse.jetty.util.log -Logging initialized @754ms
+04-14 11:25:58   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:25:58   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:29:36   main  INFO  org.eclipse.jetty.util.log -Logging initialized @827ms
+04-14 11:29:36   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:29:36   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:32:20   main  INFO  org.eclipse.jetty.util.log -Logging initialized @837ms
+04-14 11:32:20   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:32:20   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:32:38   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:33:12   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.log -Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+04-14 11:33:21   main  INFO  org.eclipse.jetty.util.log -Logging initialized @519ms
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Path: /Users/cuikexiang/git/book-reading/source-study/target -> Root: /
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher -Adding include: [glob:/Users/cuikexiang/git/book-reading/source-study/target/classes]
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -starting org.eclipse.jetty.util.PathWatcher[<null>]
+04-14 11:33:21   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:33:21   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher -Watching directory /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher -Registering watch on /Users/cuikexiang/git/book-reading/source-study/target
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/generated-sources
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/maven-status
+04-14 11:33:21   main  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle -STARTED @544ms org.eclipse.jetty.util.PathWatcher[/Users/cuikexiang/git/book-reading/source-study/target]
+04-14 11:33:21   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher -Starting java.nio file watching with sun.nio.fs.PollingWatchService@1202033c
+04-14 11:33:21   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:33:29   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:33:29   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:33:33   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:33:33   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:33:38   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:33:39   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:33:39   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:33:44   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=3)
+04-14 11:33:44   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:33:57   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:33:57   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:34:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:34:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:34:07   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:34:37   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:34:37   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:34:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:34:47   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:34:47   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:34:59   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:34:59   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:35:01   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:35:01   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:35:03   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [false] on /Users/cuikexiang/git/book-reading/source-study/target/.DS_Store
+04-14 11:35:03   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:35:08   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:35:13   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:35:13   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:35:33   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:35:33   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:35:38   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:35:43   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:35:43   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:35:59   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:35:59   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:36:04   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:36:09   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:36:09   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for take()
+04-14 11:36:23   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -isIncluded [true] on /Users/cuikexiang/git/book-reading/source-study/target/classes
+04-14 11:36:23   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:36:28   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] DEBUG org.eclipse.jetty.util.PathWatcher.Noisy -Waiting for poll(5000, MILLISECONDS)
+04-14 11:36:47   main  INFO  org.eclipse.jetty.util.log -Logging initialized @817ms
+04-14 11:36:47   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:36:47   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:37:17   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=5)
+04-14 11:37:47   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=2)
+04-14 11:38:12   main  INFO  org.eclipse.jetty.util.log -Logging initialized @506ms
+04-14 11:38:12   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:38:12   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:38:25   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target (count=1)
+04-14 11:38:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [ADDED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:38:30   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:38:42   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
+04-14 11:39:16   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=3)
+04-14 11:39:37   main  INFO  org.eclipse.jetty.util.log -Logging initialized @941ms
+04-14 11:39:37   main  INFO  org.eclipse.jetty.util.PathWatcher -Using Non-Native Java sun.nio.fs.PollingWatchService
+04-14 11:39:37   main  WARN  org.eclipse.jetty.util.PathWatcher -Quiet Time is too low for non-native WatchService [sun.nio.fs.PollingWatchService]: 1000 < 5000 ms (defaulting to 5000 ms)
+04-14 11:40:16   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=3)
+04-14 11:41:02   PathWatcher-Thread[/Users/cuikexiang/git/book-reading/source-study/target] INFO  com.doctor.jetty9.PathWatcherDemo$PathWatcherLister -onPathWatchEvent onPathWatchEvent: [MODIFIED] /Users/cuikexiang/git/book-reading/source-study/target/classes (count=1)
