@@ -1,9 +1,13 @@
-package com.doctor.dubbo.demo.api;
+package com.doctor.dubbo.demo.api.manyversionservice;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.ServiceConfig;
+import com.doctor.dubbo.demo.api.DemoPerson;
+import com.doctor.dubbo.demo.api.DemoService;
+import com.doctor.dubbo.demo.api.DemoServiceImpl;
+import com.doctor.dubbo.demo.api.ModelResult;
 
 /**
  * @author sdcuike

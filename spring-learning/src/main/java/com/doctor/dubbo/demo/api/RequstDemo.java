@@ -24,7 +24,7 @@ public class RequstDemo {
         DemoPerson demoPerson = new DemoPerson();
         demoPerson.setAge(888);
         demoPerson.setName("doctor");
-        ResponseEntity<ModelResult> responseEntity = restTemplate.postForEntity("http://10.100.0.12:8889/demo/get", demoPerson, ModelResult.class);
+        ResponseEntity<ModelResult> responseEntity = restTemplate.postForEntity("http://0.0.0.0:8889/demo/get", demoPerson, ModelResult.class);
 
         System.out.println(responseEntity.getBody().getData());
 
