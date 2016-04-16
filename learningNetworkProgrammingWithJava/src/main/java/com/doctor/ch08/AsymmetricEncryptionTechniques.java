@@ -34,6 +34,9 @@ public class AsymmetricEncryptionTechniques {
     public static void main(String[] args) throws Throwable {
         String message = "hello doctor?";
         Pair<String, String> base64PrivateAndPublicKey = generateBase64PrivateAndPublicKey();
+        System.out.println("Private key:" + base64PrivateAndPublicKey.getLeft());
+        System.out.println("Public key:" + base64PrivateAndPublicKey.getRight());
+        System.out.println("==========================");
         String encryptedBase64String = encryptToBase64String(base64PrivateAndPublicKey, message);
         System.out.println(encryptedBase64String);
         String decrypt = decrypt(base64PrivateAndPublicKey, encryptedBase64String);
